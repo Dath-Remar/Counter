@@ -30,11 +30,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Информация" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ed2-FD-1Ha">
-                                <rect key="frame" x="90" y="69" width="250" height="90"/>
+                                <rect key="frame" x="90" y="69" width="250" height="504"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="LGP-Bo-Adk"/>
-                                    <constraint firstAttribute="height" constant="90" id="cLo-b1-mwS"/>
                                 </constraints>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -103,6 +102,7 @@
                             <constraint firstItem="Zx7-te-Tk6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2av-W4-1Xu"/>
                             <constraint firstItem="DmD-LQ-9ZF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2nF-p2-Ead"/>
                             <constraint firstItem="dMK-AI-TNw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4YW-pq-9Cj"/>
+                            <constraint firstItem="dMK-AI-TNw" firstAttribute="top" secondItem="ed2-FD-1Ha" secondAttribute="bottom" constant="10" id="6uq-8n-j3b"/>
                             <constraint firstItem="DmD-LQ-9ZF" firstAttribute="top" secondItem="Zx7-te-Tk6" secondAttribute="bottom" constant="5" id="9Dt-pA-AbO"/>
                             <constraint firstItem="Zx7-te-Tk6" firstAttribute="top" secondItem="dMK-AI-TNw" secondAttribute="bottom" constant="10" id="GG3-dS-cCc"/>
                             <constraint firstItem="ed2-FD-1Ha" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kud-FY-8xE"/>
