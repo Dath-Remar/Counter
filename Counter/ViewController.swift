@@ -29,13 +29,13 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction private func tapIncrementButton(_ sender: Any) {
+    @IBAction private func didTapIncrementButton(_ sender: Any) {
         counter += 1
         updateCounterLabel()
         appendToHistory(change: 1)
     }
 
-    @IBAction private func tapDecrementButton(_ sender: Any) {
+    @IBAction private func didTapDecrementButton(_ sender: Any) {
         if counter > 0 {
                     counter -= 1
                     updateCounterLabel()
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
                 }
     }
     
-    @IBAction private func tapResetButton(_ sender: Any) {
+    @IBAction private func didTapResetButton(_ sender: Any) {
         counter = 0
                 updateCounterLabel()
                 appendToHistoryReset()

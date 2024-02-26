@@ -59,7 +59,7 @@
                                             <color key="baseForegroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="tapDecrementButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b3j-Ns-3GN"/>
+                                            <action selector="didTapDecrementButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVs-Gd-5HX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2T-V4-KLM">
@@ -78,7 +78,7 @@
                                             <color key="baseForegroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="tapIncrementButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lcL-E0-S2R"/>
+                                            <action selector="didTapIncrementButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LuE-wr-Ryc"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -92,7 +92,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="TrashIcon"/>
                                 <connections>
-                                    <action selector="tapResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S3V-nk-ERV"/>
+                                    <action selector="didTapResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ru-iQ-A1l"/>
                                 </connections>
                             </button>
                         </subviews>
