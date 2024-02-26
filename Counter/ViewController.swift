@@ -9,13 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var displayCounter: UILabel!
-    @IBOutlet weak var incrementButton: UIButton!
+    @IBOutlet private weak var displayCounter: UILabel!
+    @IBOutlet private weak var incrementButton: UIButton!
     
-    @IBOutlet weak var resetButton: UIButton!
-    @IBOutlet weak var decrementButton: UIButton!
+    @IBOutlet private weak var resetButton: UIButton!
+    @IBOutlet private weak var decrementButton: UIButton!
     
-    @IBOutlet weak var changesHistoryTextView: UITextView!
+    @IBOutlet private weak var changesHistoryTextView: UITextView!
     
     
     var counter: Int = 0
@@ -29,13 +29,13 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func tapIncrementButton(_ sender: Any) {
+    @IBAction private func tapIncrementButton(_ sender: Any) {
         counter += 1
         updateCounterLabel()
         appendToHistory(change: 1)
     }
 
-    @IBAction func tapDecrementButton(_ sender: Any) {
+    @IBAction private func tapDecrementButton(_ sender: Any) {
         if counter > 0 {
                     counter -= 1
                     updateCounterLabel()
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
                 }
     }
     
-    @IBAction func tapResetButton(_ sender: Any) {
+    @IBAction private func tapResetButton(_ sender: Any) {
         counter = 0
                 updateCounterLabel()
                 appendToHistoryReset()
